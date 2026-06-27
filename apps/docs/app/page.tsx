@@ -1,5 +1,5 @@
 import Image, { type ImageProps } from "next/image";
-import { Button } from "@fairystack/ui/button";
+import { Button } from "@fairystack/ui/Button";
 import styles from "./page.module.css";
 
 type Props = Omit<ImageProps, "src"> & {
