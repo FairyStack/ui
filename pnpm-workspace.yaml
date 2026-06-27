@@ -1,0 +1,11 @@
+allowBuilds:
+  sharp: true
+
+engineStrict: true
+
+minimumReleaseAgeExclude:
+  - prettier@3.9.0
+
+packages:
+  - "apps/*"
+  - "packages/*"
